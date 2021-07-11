@@ -2,6 +2,14 @@
 
 Dashboard Health Cloud realizado con React.js
 
-## Ejecuta
+### Instala las dependencias
 
-### `npm start`
+```
+npm install
+```
+
+### Ejecuta React dev server (http://localhost:3000)
+
+```
+npm start
+```
