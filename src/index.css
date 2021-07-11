@@ -12,3 +12,10 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+a {
+  text-decoration: none;
+}
+.active a{
+  background-color: red;
+}

@@ -9,9 +9,9 @@ const Container = styled.div`
 const Menu = () => {
     return (
         <Container>
-            <MenuLink title="Inicio" icon="home"/>
-            <MenuLink title="Acerca de" icon="info" active/>
-            <MenuLink title="Config." icon="settings"/>
+            <MenuLink title="Inicio" icon="home" active page="/"/>
+            <MenuLink title="Acerca de" icon="info" page="/acerca"/>
+            <MenuLink title="Config." icon="settings" page="/configuraciones"/>
         </Container>
     )
 }

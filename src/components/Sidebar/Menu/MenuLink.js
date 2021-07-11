@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import {NavLink} from 'react-router-dom'
 
 
 const Container = styled.div`
@@ -17,12 +17,14 @@ const Container = styled.div`
     &:hover {
         background-color: rgba(0,0,0,0.1);
     }
+    &:active {
+        background-color: rgba(0,0,0,0.1);
+    }
 `
 
-
 const Span = styled.span`
-    /* color: ${props => props.active ? props.theme.activeMenu : "#AAA5A5"}; */
-    color: ${props => !props.active && props.theme.textColor};
+    color: ${props => props.active ? props.theme.activeMenu : "#AAA5A5"};
+    /*color: ${props => !props.active && props.theme.textColor};*/
     font-size: 1rem;
     margin-right: 1rem;
 `
@@ -30,16 +32,19 @@ const Span = styled.span`
 const Title = styled.h1`
     font-size: 0.9rem;
     font-weight: 300;
+
     color: ${props => props.active ? props.theme.activeMenu : "#AAA5A5"};
 `
 
-const MenuLink = ({ title, active, icon }) => {
-
+const MenuLink = ({ title, active, icon, page }) => {
+    
     return (
-        <Container active={active}>
-            <Span active={active} className="iconify" data-inline="false" data-icon={`feather:${icon}`}></Span>
-            <Title active={active}>{title}</Title>
-        </Container>
+        <NavLink to={page} >
+            <Container active={active}>
+                <Span active={active} className="iconify" data-inline="false" data-icon={`feather:${icon}`}></Span>
+                <Title active={active}>{title}</Title>
+            </Container>
+        </NavLink>
     )
 }
 
