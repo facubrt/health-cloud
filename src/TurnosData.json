@@ -1,0 +1,90 @@
+{
+    "proximos": [
+        {
+            "id": 1,
+            "profesional": {
+                "datos": {
+                    "nombre": "Dr. House",
+                    "especialidad": "M.D."
+                },
+                "imageUrl": "lostround.png"
+            },
+            "fecha": {
+                "dia": "15 de enero",
+                "ano": "2021"
+            },
+            "lugar": {
+                "centro": "Hospital de la Baxada",
+                "localidad": "Paraná"
+            },
+            "motivo": "Control",
+            "estado": "Activo",
+            "prioridad": 1
+        }
+    ],
+    "historial": [
+        {
+            "id": 2,
+            "profesional": {
+                "datos": {
+                    "nombre": "Dr. House",
+                    "especialidad": "M.D."
+                },
+                "imageUrl": "lostround.png"
+            },
+            "fecha": {
+                "dia": "15 de enero",
+                "ano": "2021"
+            },
+            "lugar": {
+                "centro": "Hospital de la Baxada",
+                "localidad": "Paraná"
+            },
+            "motivo": "Control",
+            "estado": "Activo",
+            "prioridad": 1
+        },
+        {
+            "id": 3,
+            "profesional": {
+                "datos": {
+                    "nombre": "Dr. House",
+                    "especialidad": "M.D."
+                },
+                "imageUrl": "lostround.png"
+            },
+            "fecha": {
+                "dia": "15 de enero",
+                "ano": "2021"
+            },
+            "lugar": {
+                "centro": "Hospital de la Baxada",
+                "localidad": "Paraná"
+            },
+            "motivo": "Control",
+            "estado": "Activo",
+            "prioridad": 1
+        },
+        {
+            "id": 3,
+            "profesional": {
+                "datos": {
+                    "nombre": "Dr. House",
+                    "especialidad": "M.D."
+                },
+                "imageUrl": "lostround.png"
+            },
+            "fecha": {
+                "dia": "15 de enero",
+                "ano": "2021"
+            },
+            "lugar": {
+                "centro": "Hospital de la Baxada",
+                "localidad": "Paraná"
+            },
+            "motivo": "Control",
+            "estado": "Activo",
+            "prioridad": 1
+        }
+    ]
+}
