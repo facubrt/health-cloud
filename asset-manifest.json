@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/health-cloud/static/css/main.90dc11dc.chunk.css",
-    "main.js": "/health-cloud/static/js/main.b8ba258c.chunk.js",
-    "main.js.map": "/health-cloud/static/js/main.b8ba258c.chunk.js.map",
+    "main.css": "/health-cloud/static/css/main.661c7d57.chunk.css",
+    "main.js": "/health-cloud/static/js/main.55237ef9.chunk.js",
+    "main.js.map": "/health-cloud/static/js/main.55237ef9.chunk.js.map",
     "runtime-main.js": "/health-cloud/static/js/runtime-main.4dcebd3d.js",
     "runtime-main.js.map": "/health-cloud/static/js/runtime-main.4dcebd3d.js.map",
-    "static/js/2.632b4981.chunk.js": "/health-cloud/static/js/2.632b4981.chunk.js",
-    "static/js/2.632b4981.chunk.js.map": "/health-cloud/static/js/2.632b4981.chunk.js.map",
+    "static/js/2.5a067686.chunk.js": "/health-cloud/static/js/2.5a067686.chunk.js",
+    "static/js/2.5a067686.chunk.js.map": "/health-cloud/static/js/2.5a067686.chunk.js.map",
     "index.html": "/health-cloud/index.html",
-    "static/css/main.90dc11dc.chunk.css.map": "/health-cloud/static/css/main.90dc11dc.chunk.css.map",
-    "static/js/2.632b4981.chunk.js.LICENSE.txt": "/health-cloud/static/js/2.632b4981.chunk.js.LICENSE.txt",
+    "static/css/main.661c7d57.chunk.css.map": "/health-cloud/static/css/main.661c7d57.chunk.css.map",
+    "static/js/2.5a067686.chunk.js.LICENSE.txt": "/health-cloud/static/js/2.5a067686.chunk.js.LICENSE.txt",
     "static/media/profilelg.720b4337.png": "/health-cloud/static/media/profilelg.720b4337.png",
     "static/media/profilesm.e740d418.png": "/health-cloud/static/media/profilesm.e740d418.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4dcebd3d.js",
-    "static/js/2.632b4981.chunk.js",
-    "static/css/main.90dc11dc.chunk.css",
-    "static/js/main.b8ba258c.chunk.js"
+    "static/js/2.5a067686.chunk.js",
+    "static/css/main.661c7d57.chunk.css",
+    "static/js/main.55237ef9.chunk.js"
   ]
 }
