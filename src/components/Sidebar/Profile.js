@@ -8,11 +8,12 @@ const Container = styled.div`
 
 const ProfileImg = styled.img`
     height: 5rem;
+    margin: 1rem;
 `
 
 const ProfileName = styled.h1`
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     color: ${({theme}) => theme.textColor}
 `
 

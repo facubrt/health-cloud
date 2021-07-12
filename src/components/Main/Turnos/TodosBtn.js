@@ -26,7 +26,7 @@ const Button = styled.a`
     }
 `
 
-const TodosBtn = ({ title }) => (
+const TodosBtn = () => (
     <Container>
         <Button>Ver Todos</Button>
     </Container>

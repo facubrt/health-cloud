@@ -6,11 +6,7 @@ import ToggleSwitch from './ToggleSwitch'
 
 const Container = styled.div`
     background-color: ${({ theme }) => theme.secondary};
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 16rem;
+    //width: 16rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +14,7 @@ const Container = styled.div`
 
 const Sidebar = () => {
     return (
-        <Container>
+        <Container className="w-100 d-flex">
             <Profile/>
             <Menu/>
             <ToggleSwitch/>

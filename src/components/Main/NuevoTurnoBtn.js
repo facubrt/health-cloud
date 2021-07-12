@@ -9,9 +9,9 @@ const AddButton = styled.a`
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    position: absolute;
-    top: 6.5rem;
-    right: 6rem;
+    //position: absolute;
+    //top: 6.5rem;
+    //right: 6rem;
     cursor: pointer;
     transition: all ease-in-out 300ms;
     &:hover {

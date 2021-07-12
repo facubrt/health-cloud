@@ -5,9 +5,9 @@ const Switch = styled.div`
     display: flex;
     flex-shrink: 0;
     align-items: center;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
     width: ${({ theme }) => theme.switchWidth};
     height: ${({ theme }) => theme.switchHeight};
     border-radius: 50em;

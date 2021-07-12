@@ -4,6 +4,7 @@ import {ThemeProvider} from 'styled-components'
 import {GlobalStyles} from './styles/global'
 import { lightTheme, darkTheme } from './styles/theme'
 import { useThemeContext } from './context/themeContext'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
 
